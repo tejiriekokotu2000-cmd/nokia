@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Bubble column">
+  <style>
+    .bu { animation: up 5s linear infinite; fill: none; stroke: #7de3f4; }
+    .bu2 { animation-duration: 6.5s; animation-delay: -2s; }
+    @keyframes up { from { transform: translateY(40px); opacity: 0.8; } to { transform: translateY(-280px); opacity: 0; } }
+  </style>
+  <rect width="240" height="320" fill="#082028"/>
+  <g class="bu">
+    <circle cx="90" cy="300" r="8"/><circle cx="130" cy="320" r="5"/><circle cx="110" cy="340" r="6"/>
+  </g>
+  <g class="bu bu2">
+    <circle cx="100" cy="310" r="4"/><circle cx="150" cy="330" r="7"/><circle cx="70" cy="345" r="5"/>
+  </g>
+</svg>

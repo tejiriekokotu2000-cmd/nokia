@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Concentric quiet">
+  <style>
+    .r { transform-origin: 120px 160px; animation: grow 5s linear infinite; fill: none; stroke: #7de3f4; stroke-width: 2; }
+    .r2 { animation-delay: -1.6s; stroke: #124191; }
+    .r3 { animation-delay: -3.2s; stroke: #a7b0b2; }
+    @keyframes grow {
+      from { transform: scale(0.1); opacity: 0.9; }
+      to { transform: scale(1.4); opacity: 0; }
+    }
+  </style>
+  <rect width="240" height="320" fill="#05080a"/>
+  <circle cx="120" cy="160" r="6" fill="#7de3f4"/>
+  <circle class="r" cx="120" cy="160" r="80"/>
+  <circle class="r r2" cx="120" cy="160" r="80"/>
+  <circle class="r r3" cx="120" cy="160" r="80"/>
+</svg>
