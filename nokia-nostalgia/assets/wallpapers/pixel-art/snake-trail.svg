@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Snake trail">
+  <defs>
+    <pattern id="g" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#0b0f10"/>
+      <rect width="1" height="16" fill="#151b1d"/>
+      <rect width="16" height="1" fill="#151b1d"/>
+    </pattern>
+  </defs>
+  <style>
+    .s { animation: crawl 4s steps(12) infinite; }
+    @keyframes crawl { from { transform: translateX(0); } to { transform: translateX(96px); } }
+  </style>
+  <rect width="240" height="320" fill="url(#g)"/>
+  <g class="s" fill="#7de3f4">
+    <rect x="16" y="160" width="16" height="16"/>
+    <rect x="32" y="160" width="16" height="16"/>
+    <rect x="48" y="160" width="16" height="16"/>
+    <rect x="64" y="160" width="16" height="16"/>
+    <rect x="64" y="144" width="16" height="16"/>
+    <rect x="64" y="128" width="16" height="16" fill="#124191"/>
+  </g>
+</svg>

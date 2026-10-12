@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Scanline glow">
+  <style>
+    .glow { animation: pulse 4.5s ease-in-out infinite; }
+    .scan { animation: sweep 6s linear infinite; }
+    @keyframes pulse { 0%,100% { opacity: 0.35; } 50% { opacity: 0.8; } }
+    @keyframes sweep { from { transform: translateY(-40px); } to { transform: translateY(360px); } }
+  </style>
+  <rect width="240" height="320" fill="#070b0d"/>
+  <rect class="glow" x="28" y="36" width="184" height="248" fill="#124191"/>
+  <rect x="36" y="44" width="168" height="232" fill="#0b0f10"/>
+  <g stroke="#1e3a4a" stroke-width="1">
+    <path d="M36 70 H204 M36 96 H204 M36 122 H204 M36 148 H204 M36 174 H204 M36 200 H204 M36 226 H204 M36 252 H204"/>
+  </g>
+  <rect class="scan" x="36" y="0" width="168" height="18" fill="#7de3f4" opacity="0.18"/>
+</svg>

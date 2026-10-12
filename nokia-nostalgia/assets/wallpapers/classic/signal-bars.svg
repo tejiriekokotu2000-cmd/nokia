@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Signal bars">
+  <style>
+    .b1 { animation: bar 2.2s ease-in-out infinite; transform-origin: 60px 240px; }
+    .b2 { animation: bar 2.2s ease-in-out infinite 0.2s; transform-origin: 100px 240px; }
+    .b3 { animation: bar 2.2s ease-in-out infinite 0.4s; transform-origin: 140px 240px; }
+    .b4 { animation: bar 2.2s ease-in-out infinite 0.6s; transform-origin: 180px 240px; }
+    @keyframes bar { 0%,100% { transform: scaleY(0.35); } 50% { transform: scaleY(1); } }
+  </style>
+  <rect width="240" height="320" fill="#0b0f10"/>
+  <rect x="24" y="24" width="192" height="272" fill="none" stroke="#2d373a"/>
+  <rect class="b1" x="48" y="160" width="24" height="80" fill="#124191"/>
+  <rect class="b2" x="88" y="130" width="24" height="110" fill="#1a5bb8"/>
+  <rect class="b3" x="128" y="100" width="24" height="140" fill="#7de3f4"/>
+  <rect class="b4" x="168" y="70" width="24" height="170" fill="#a7b0b2"/>
+</svg>

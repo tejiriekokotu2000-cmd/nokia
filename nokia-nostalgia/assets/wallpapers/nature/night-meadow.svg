@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Night meadow">
+  <style>
+    .moon { animation: bob 6s ease-in-out infinite; }
+    .star { animation: tw 3s ease-in-out infinite; }
+    .s2 { animation-delay: -1s; }
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+    @keyframes tw { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
+  </style>
+  <rect width="240" height="320" fill="#0a1420"/>
+  <circle class="star" cx="40" cy="50" r="2" fill="#f3f5f5"/>
+  <circle class="star s2" cx="90" cy="30" r="1.5" fill="#f3f5f5"/>
+  <circle class="star" cx="170" cy="64" r="2" fill="#7de3f4"/>
+  <circle class="star s2" cx="210" cy="40" r="1.5" fill="#f3f5f5"/>
+  <circle class="moon" cx="168" cy="88" r="22" fill="#e8e0c8"/>
+  <path d="M0 220 C40 190 90 240 140 210 C180 190 210 230 240 200 V320 H0 Z" fill="#124191"/>
+  <path d="M0 250 C60 230 100 270 160 245 C200 230 220 260 240 250 V320 H0 Z" fill="#0b1a12"/>
+</svg>

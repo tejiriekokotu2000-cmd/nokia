@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Soft snow">
+  <style>
+    .fl { animation: down 7s linear infinite; }
+    .f2 { animation-duration: 9s; animation-delay: -3s; }
+    @keyframes down { from { transform: translateY(-20px); } to { transform: translateY(340px); } }
+  </style>
+  <rect width="240" height="320" fill="#10161c"/>
+  <path d="M0 250 L40 230 L90 255 L140 228 L190 250 L240 236 V320 H0 Z" fill="#2a3840"/>
+  <g class="fl" fill="#f3f5f5">
+    <circle cx="30" cy="0" r="2"/><circle cx="80" cy="-30" r="1.5"/><circle cx="130" cy="-10" r="2"/><circle cx="190" cy="-40" r="1.5"/><circle cx="220" cy="-5" r="2"/>
+  </g>
+  <g class="fl f2" fill="#a7b0b2">
+    <circle cx="50" cy="-15" r="1.5"/><circle cx="110" cy="-35" r="2"/><circle cx="160" cy="-8" r="1.5"/><circle cx="200" cy="-25" r="2"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Sunset bands">
+  <style>
+    .shift { animation: rise 10s ease-in-out infinite; }
+    @keyframes rise { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-24px); } }
+  </style>
+  <rect width="240" height="320" fill="#1a0e12"/>
+  <g class="shift">
+    <rect y="40" width="240" height="40" fill="#3b1d4a"/>
+    <rect y="80" width="240" height="40" fill="#7a2e4a"/>
+    <rect y="120" width="240" height="40" fill="#c45c3a"/>
+    <rect y="160" width="240" height="40" fill="#e39a4a"/>
+    <rect y="200" width="240" height="40" fill="#124191"/>
+    <rect y="240" width="240" height="80" fill="#0b0f10"/>
+  </g>
+</svg>

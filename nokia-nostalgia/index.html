@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nokia Nostalgia is an independent gallery of original and recreated animations inspired by classic mobile wallpaper screens.">
+  <title>Nokia Nostalgia — A Little Piece of Nokia History</title>
+  <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="index.html">
+        <img src="assets/images/logo.svg" alt="" width="40" height="40">
+        <span>Nokia Nostalgia</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Independent archive · 1990s–2010s spirit</p>
+        <h1>A Little Piece of Nokia History.</h1>
+        <p class="lede">Looping idle screens, patient screensavers, and pixel weather — gathered here as a small gallery of original and fan-made recreations. Not an official Nokia product.</p>
+        <a class="btn btn-primary" href="gallery.html">Explore the Gallery</a>
+      </div>
+      <div class="hero-stage">
+        <div class="phone-frame" data-hero-frame>
+          <div class="phone-earpiece" aria-hidden="true"></div>
+          <div class="phone-screen" id="hero-screen" aria-label="Featured looping wallpaper"></div>
+          <div class="phone-keypad" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+        <p class="hero-caption" id="hero-caption">Loading featured animation…</p>
+      </div>
+    </section>
+
+    <section class="featured" aria-labelledby="featured-heading">
+      <div class="section-head">
+        <h2 id="featured-heading">Featured collection</h2>
+        <p>Recently added and highlighted loops. Every title is original or clearly marked as a recreation.</p>
+      </div>
+      <div class="card-grid" id="featured-grid" data-empty-message="No featured wallpapers are available yet."></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-title">Nokia Nostalgia</p>
+        <p>A lightweight gallery of classic-style mobile animations. Fan project, not affiliated with Nokia.</p>
+      </div>
+      <div>
+        <p class="footer-title">Contact</p>
+        <p>Corrections: use the note on the <a href="about.html">About</a> page. No accounts, no tracking forms.</p>
+      </div>
+      <div>
+        <p class="footer-title">Disclaimer</p>
+        <p>Nokia and related marks belong to their respective owners. Animations here are independently created unless a source is stated.</p>
+      </div>
+    </div>
+    <p class="copyright">© <span data-year></span> Nokia Nostalgia. Independent nostalgic archive.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/player.js"></script>
+  <script src="assets/js/gallery.js"></script>
+</body>
+</html>

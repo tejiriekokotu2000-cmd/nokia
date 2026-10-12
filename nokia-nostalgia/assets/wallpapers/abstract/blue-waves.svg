@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img" aria-label="Blue waves">
+  <style>
+    .w { animation: drift 8s linear infinite; }
+    .w2 { animation: drift 11s linear infinite reverse; }
+    @keyframes drift {
+      from { transform: translateX(0); }
+      to { transform: translateX(-240px); }
+    }
+  </style>
+  <rect width="240" height="320" fill="#041018"/>
+  <g class="w">
+    <path d="M0 210 C40 180 80 240 120 210 C160 180 200 240 240 210 C280 180 320 240 360 210 C400 180 440 240 480 210 V320 H0 Z" fill="#124191"/>
+    <path d="M0 230 C40 210 80 250 120 230 C160 210 200 250 240 230 C280 210 320 250 360 230 C400 210 440 250 480 230 V320 H0 Z" fill="#0a2a5c"/>
+  </g>
+  <g class="w2">
+    <path d="M0 250 C50 230 70 270 120 250 C170 230 190 270 240 250 C290 230 310 270 360 250 C410 230 430 270 480 250 V320 H0 Z" fill="#7de3f4" opacity="0.35"/>
+  </g>
+</svg>
